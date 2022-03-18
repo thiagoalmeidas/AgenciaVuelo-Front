@@ -167,7 +167,7 @@ textarea{
      background-color: #0d133d;
      color:rgb(226, 177, 255);
      margin: 0.2rem 0;
-     width: 74%;
+     min-width: 68%;
 }
 textarea::placeholder{
     color:rgb(226, 177, 255);
@@ -247,8 +247,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-top: 20px;
     text-align: center;
 }
-.origem-destino input{
-    float: left;
+.destinos-display {
+    display: flex;
+    justify-content: center;
 }
 .origem-destino button{
     max-width:200px;
