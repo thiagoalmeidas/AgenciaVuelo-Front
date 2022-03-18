@@ -247,6 +247,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-top: 20px;
     text-align: center;
 }
+.origem-destino input{
+    float: left;
+}
 .origem-destino button{
     max-width:200px;
     text-align: center;

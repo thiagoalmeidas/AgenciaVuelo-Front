@@ -53,7 +53,6 @@ class ListUsuarioComponent extends Component {
                                 <tr>
                                     <th> Nome</th>
                                     <th> E-mail</th>
-                                    <th> Senha</th>
                                     <th> Telefone</th>
                                     <th> Ações</th>
                                 </tr>
@@ -65,7 +64,6 @@ class ListUsuarioComponent extends Component {
                                         <tr key = {usuario.id}>
                                              <td> {usuario.nomeUsuario}</td>   
                                              <td> {usuario.emailUsuario}</td>
-                                             <td> {usuario.senhaUsuario}</td>
                                              <td> {usuario.telefoneUsuario}</td>
                                              <td>
                                                  <button className="btn-adm ad" onClick={ () => this.editUsuario(usuario.id)} >Atualizar </button>

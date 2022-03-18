@@ -1,24 +1,25 @@
-import React from 'react';
-import './App.css';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import React from 'react'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
-import Home from './pages/Home';
-import Destinos from './pages/Destinos';
-import Promocoes from './pages/Promocoes';
-import Contato from './pages/Contato';
-import Adm from './pages/Adm';
+import Home from './pages/Home'
+import Destinos from './pages/Destinos'
+import Promocoes from './pages/Promocoes'
+import Contato from './pages/Contato'
+import Adm from './pages/Adm'
 
-import ListOrigemComponent from './pages/Origem/ListOrigemComponent';
-import CreateOrigemComponent from './pages/Origem/CreateOrigemComponent';
-import ViewOrigemComponent from './pages/Origem/ViewOrigemComponent';
+import ListOrigemComponent from './pages/Origem/ListOrigemComponent'
+import CreateOrigemComponent from './pages/Origem/CreateOrigemComponent'
+import ViewOrigemComponent from './pages/Origem/ViewOrigemComponent'
 
-import ListDestinoComponent from './pages/Destino/ListDestinoComponent';
-import CreateDestinoComponent from './pages/Destino/CreateDestinoComponent';
-import ViewDestinoComponent from './pages/Destino/ViewDestinoComponent';
+import ListDestinoComponent from './pages/Destino/ListDestinoComponent'
+import CreateDestinoComponent from './pages/Destino/CreateDestinoComponent'
+import ViewDestinoComponent from './pages/Destino/ViewDestinoComponent'
 
-import ListUsuarioComponent from './pages/Usuario/ListUsuarioComponent';
-import CreateUsuarioComponent from './pages/Usuario/CreateUsuarioComponent';
-import ViewUsuarioComponent from './pages/Usuario/ViewUsuarioComponent';
+import ListUsuarioComponent from './pages/Usuario/ListUsuarioComponent'
+import CreateUsuarioComponent from './pages/Usuario/CreateUsuarioComponent'
+import ViewUsuarioComponent from './pages/Usuario/ViewUsuarioComponent'
+
+import ListOrigem from './components/origem/ListOrigem'
 
 function Routes() {
   return (
@@ -47,6 +48,9 @@ function Routes() {
                      <Route path = "/usuario" component = {ListUsuarioComponent}></Route>
                     <Route path = "/add-usuario/:id" component = {CreateUsuarioComponent}></Route>
                     <Route path = "/ver-usuario/:id" component = {ViewUsuarioComponent}></Route>
+
+                    <Route path = "/listorigem" component = {ListOrigem}></Route>
+
                 </Switch>
             </div>
         </Router>
