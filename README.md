@@ -1,7 +1,7 @@
 # AgenciaVuelo-Front
 <h2>FrontEnd</h2>
-<h1>React</h1>
+<p>React</p>
 
 <h2>BackEnd</h2>
-<h1>SpringBoot</h1>
+<p>SpringBoot</p>
 
