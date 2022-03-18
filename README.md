@@ -5,3 +5,6 @@
 <h2>BackEnd</h2>
 <p>SpringBoot</p>
 
+<h2>Banco de Dados</h2>
+<p>MySql</p>
+
