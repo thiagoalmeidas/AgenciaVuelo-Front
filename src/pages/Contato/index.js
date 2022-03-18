@@ -28,7 +28,7 @@ function Contato() {
                     </datalist>
                     <input type="text" placeholder="Nome:"/>
                     <input type="email" placeholder="E-mail:"/>
-                    <input type="tel" id="phone" name="phone" placeholder="(xx)xxxxx-xxxx" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"/>
+                    <input type="tel" id="phone" name="phone" placeholder="(xx)xxxxx-xxxx" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"/><br/>
                     <textarea placeholder="Descreva" name="descreva" id="" cols="20" rows="5"></textarea><br/>
                     <button className="button-principal">Enviar</button>
                 </form>

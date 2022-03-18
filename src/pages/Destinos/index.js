@@ -23,7 +23,7 @@ function Destinos() {
             <section className="origem-destino">
               <h4>Consultas</h4>
               <p>Preencha o formulário para consultar valores!</p>
-              <form action="#">
+              <form className="destinos-display">
                           <label for="origem"></label>
                           <input placeholder="Origem: Pais/Estado" required="required" name="getorigem" list="data-origem"/>
                           <ListOrigem />                   

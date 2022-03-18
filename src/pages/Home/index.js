@@ -12,7 +12,7 @@ function Home() {
   return (
     <div>
       <Helmet>
-        <title>Home</title>             
+        <title>Agëncia de Viagens Vuelo</title>             
       </Helmet>
       <Header />
       <div className="container">
